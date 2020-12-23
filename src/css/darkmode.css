@@ -327,3 +327,14 @@ h6 {
 	border-radius: .2em;
 	background-color: #859900;
 }
+
+blockquote {
+    background-color: #303236 !important;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    overflow: hidden;
+    margin-left: 0;
+}
+
