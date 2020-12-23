@@ -1,6 +1,6 @@
 ## Overview
 
-A rip-off of [Solarized css](https://thomasf.github.io/solarized-css/) but with the color palette of [org-roam-server's](https://github.com/org-roam/org-roam-server), which 
+A rip-off of [Solarized css](https://thomasf.github.io/solarized-css/) but with the color palette of [org-roam-server's](https://github.com/org-roam/org-roam-server) darkmode, which 
 I like a lot better. Hosted here so I can share my notes easier with easier navigation than a pdf.
 
 ## Usage
