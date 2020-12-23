@@ -9,7 +9,7 @@ Add these lines and run `org-export-dispatch`
 
 ```
 #+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://thomasf.github.io/solarized-css/org-info.min.js
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="//http://github.com/ajjacobs/darkmode-css/css/darkmode.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://ajjacobs.github.io/darkmode-css/css/darkmode.css" />
 ```
 
 If you prefer, you could also copy these into a local file, e.g. `darkmode.setup`, and use 
