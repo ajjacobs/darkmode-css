@@ -336,6 +336,9 @@ h6 {
   margin: 12px 0;
   font-style: italic;
 }
+.theorem p {
+  display: inline;
+}
 .theorem::before {
   content: 'Theorem ' counter(theorem) '. ';
   font-weight: bold;
@@ -348,6 +351,9 @@ h6 {
 	display: block;
 	margin: 12px 0;
 	font-style: italic;
+}
+.exercise p {
+  display: inline;
 }
 .exercise::before {
 	content: 'Exercise ' counter(exercise) '. ';
@@ -362,6 +368,9 @@ h6 {
   margin: 12px 0;
   font-style: italic;
 }
+.lemma p {
+  display: inline;
+}
 .lemma::before {
   content: 'Lemma ' counter(theorem) '. ';
   font-weight: bold;
@@ -374,6 +383,9 @@ h6 {
   margin: 12px 0;
   font-style: normal;
   position: relative;
+}
+.proof p {
+  display: inline;
 }
 .proof::before {
   content: 'Proof. ' attr(title);
@@ -393,6 +405,9 @@ h6 {
   margin: 12px 0;
   font-style: normal;
 }
+.definition p {
+  display: inline;
+}
 .definition::before {
   content: 'Definition ' counter(definition) '. ';
   font-weight: bold;
@@ -400,7 +415,6 @@ h6 {
 }
 
 /* Sidenotes */
-
 .sidenote {
   font-size: 0.8rem;
   float: right;
