@@ -342,6 +342,19 @@ h6 {
   font-style: normal;
 }
 
+/* Example */
+.example {
+	counter-increment: example;
+	display: block;
+	margin: 12px 0;
+	font-style: italic;
+}
+.example::before {
+	content: 'Example ' counter(example) '. ';
+	font-weight: bold;
+	font-style: normal;
+}
+
 /* Lemma */
 .lemma {
   counter-increment: theorem;
