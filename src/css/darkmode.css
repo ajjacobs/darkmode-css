@@ -515,3 +515,46 @@ input.sidenote-toggle {
 .footnotes {
   border-top: 1px solid hsl(0, 0%, 39%);
 }
+
+/* Special blocks for theorems etc. */
+/* See https://emacs.stackexchange.com/questions/68252/org-export-theorem-with-caption-and-number-in-html */
+/* TODO(AJ): these are the default colors from the stack exchange thread. Needs updating to match the theme */
+
+/* BLOCKS */
+#content .special-block {
+  padding: 12px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+#content .special-block p:last-child {
+  margin-bottom: 0;
+}
+#content .admonition-title {
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  padding: 6px 12px;
+  margin-bottom: 0px;
+}
+/* Definition: green */
+#content .definition {background-color: #dbfaf4;}
+#content p.admonition-title.definition {background-color: #1abc9c;}
+/* Theorem: orange */
+#content .theorem,
+#content .postulate,
+#content .axiom,
+#content .corollary,
+#content .lemma {background-color: #ffedcc;}
+#content p.admonition-title.theorem,
+#content p.admonition-title.postulate,
+#content p.admonition-title.axiom,
+#content p.admonition-title.corollary,
+#content p.admonition-title.lemma {background-color: #f0b37e;}
+/* Proposition: blue*/
+#content .proposition,
+#content .principia {background-color: #e7f2fa;}
+#content p.admonition-title.proposition,
+#content p.admonition-title.principia{background-color: #6ab0de;}
+/* Algorithm: gray */
+#content .alg {background-color: #ddd;}
+#content p.admonition-title.alg {background-color: #333;}
